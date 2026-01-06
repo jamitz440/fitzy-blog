@@ -1,0 +1,59 @@
+<svg width="255" xmlns="http://www.w3.org/2000/svg" height="81" id="screenshot-0bf4a73d-b50a-80b6-8007-60a0eb3393a2" viewBox="-30 615 255 95" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+  <style>
+    .mauve { fill: #d4b3f5; }
+    .text-color { fill: #ede8d5; }
+  </style>
+  <g id="shape-0bf4a73d-b50a-80b6-8007-60a0eb3393a2" rx="0" ry="0">
+    <g id="shape-0bf4a73d-b50a-80b6-8007-60a14b238f53">
+      <g transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="text-container" x="14" y="615" width="44" height="72" rx="0" ry="0">
+        <defs>
+          <pattern patternUnits="objectBoundingBox" width="43.19999694824219" height="94.66665649414062" id="fill-0-render-172-0">
+            <g>
+              <rect width="43.19999694824219" height="94.66665649414062" style="fill:#000000;fill-opacity:1">
+              </rect>
+            </g>
+          </pattern>
+        </defs>
+        <g class="fills" id="fills-0bf4a73d-b50a-80b6-8007-60a14b238f53">
+          <text x="14" y="698.3333282470703" dominant-baseline="ideographic" textLength="43.19999694824219" lengthAdjust="spacingAndGlyphs" class="mauve" style="text-transform:none;font-family:&quot;JetBrains Mono&quot;;letter-spacing:normal;font-style:normal;font-weight:800;white-space:pre;font-size:72px;text-decoration:none;direction:ltr">}</text>
+        </g>
+      </g>
+    </g>
+    <g id="shape-0bf4a73d-b50a-80b6-8007-60a14b238f54">
+      <g class="fills" id="fills-0bf4a73d-b50a-80b6-8007-60a14b238f54">
+        <rect rx="0" ry="0" x="20" y="615" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" width="43" height="11" class="mauve">
+        </rect>
+      </g>
+    </g>
+    <g id="shape-0bf4a73d-b50a-80b6-8007-60a14b238f55">
+      <g transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="text-container" x="-30" y="615" width="44" height="72" rx="0" ry="0">
+        <defs>
+          <pattern patternUnits="objectBoundingBox" width="43.19999694824219" height="94.66665649414062" id="fill-0-render-174-0">
+            <g>
+              <rect width="43.19999694824219" height="94.66665649414062" style="fill:#000000;fill-opacity:1">
+              </rect>
+            </g>
+          </pattern>
+        </defs>
+        <g class="fills" id="fills-0bf4a73d-b50a-80b6-8007-60a14b238f55">
+          <text x="-30" y="698.3333282470703" dominant-baseline="ideographic" textLength="43.19999694824219" lengthAdjust="spacingAndGlyphs" class="mauve" style="text-transform:none;font-family:&quot;JetBrains Mono&quot;;letter-spacing:normal;font-style:normal;font-weight:800;white-space:pre;font-size:72px;text-decoration:none;direction:ltr">{</text>
+        </g>
+      </g>
+    </g>
+    <g id="shape-0bf4a73d-b50a-80b6-8007-60a0a82d8d18">
+      <g transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="text-container" x="52" y="624" width="173" height="72" rx="0" ry="0">
+        <defs>
+          <pattern patternUnits="objectBoundingBox" width="172.8000030517578" height="94.66665649414062" id="fill-0-render-175-0">
+            <g>
+              <rect width="172.8000030517578" height="94.66665649414062" style="fill:#000000;fill-opacity:1">
+              </rect>
+            </g>
+          </pattern>
+        </defs>
+        <g class="fills" id="fills-0bf4a73d-b50a-80b6-8007-60a0a82d8d18">
+          <text x="52" y="707.3333282470703" dominant-baseline="ideographic" textLength="172.8000030517578" lengthAdjust="spacingAndGlyphs" class="text-color" style="text-transform:none;font-family:&quot;JetBrains Mono&quot;;letter-spacing:normal;font-style:normal;font-weight:800;white-space:pre;font-size:72px;text-decoration:none;direction:ltr">itzy</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,9 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
-    <path d="M50.4 78.5a75.1 75.1 0 0 0-28.5 6.9l24.2-65.7c.7-2 1.9-3.2 3.4-3.2h29c1.5 0 2.7 1.2 3.4 3.2l24.2 65.7s-11.6-7-28.5-7L67 45.5c-.4-1.7-1.6-2.8-2.9-2.8-1.3 0-2.5 1.1-2.9 2.7L50.4 78.5Zm-1.1 28.2Zm-4.2-20.2c-2 6.6-.6 15.8 4.2 20.2a17.5 17.5 0 0 1 .2-.7 5.5 5.5 0 0 1 5.7-4.5c2.8.1 4.3 1.5 4.7 4.7.2 1.1.2 2.3.2 3.5v.4c0 2.7.7 5.2 2.2 7.4a13 13 0 0 0 5.7 4.9v-.3l-.2-.3c-1.8-5.6-.5-9.5 4.4-12.8l1.5-1a73 73 0 0 0 3.2-2.2 16 16 0 0 0 6.8-11.4c.3-2 .1-4-.6-6l-.8.6-1.6 1a37 37 0 0 1-22.4 2.7c-5-.7-9.7-2-13.2-6.2Z" />
-    <style>
-        path { fill: #000; }
-        @media (prefers-color-scheme: dark) {
-            path { fill: #FFF; }
-        }
-    </style>
+<svg width="93" xmlns="http://www.w3.org/2000/svg" height="72" id="screenshot-0bf4a73d-b50a-80b6-8007-60a1546bb30f" viewBox="-30 736 93 72" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+  <style>
+    .mauve { fill: #d4b3f5; }
+  </style>
+  <g id="shape-0bf4a73d-b50a-80b6-8007-60a1546bb30f" rx="0" ry="0">
+    <g id="shape-0bf4a73d-b50a-80b6-8007-609f433e6cb6">
+      <g transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="text-container" x="14" y="736" width="44" height="72" rx="0" ry="0">
+        <defs>
+          <pattern patternUnits="objectBoundingBox" width="43.19999694824219" height="94.66665649414062" id="fill-0-render-177-0">
+            <g>
+              <rect width="43.19999694824219" height="94.66665649414062" style="fill:#000000;fill-opacity:1">
+              </rect>
+            </g>
+          </pattern>
+        </defs>
+        <g class="fills" id="fills-0bf4a73d-b50a-80b6-8007-609f433e6cb6">
+          <text x="14" y="819.3333282470703" dominant-baseline="ideographic" textLength="43.19999694824219" lengthAdjust="spacingAndGlyphs" class="mauve" style="text-transform:none;font-family:&quot;JetBrains Mono&quot;;letter-spacing:normal;font-style:normal;font-weight:800;white-space:pre;font-size:72px;text-decoration:none;direction:ltr">}</text>
+        </g>
+      </g>
+    </g>
+    <g id="shape-0bf4a73d-b50a-80b6-8007-60a012e43150">
+      <g class="fills" id="fills-0bf4a73d-b50a-80b6-8007-60a012e43150">
+        <rect rx="0" ry="0" x="20" y="730" transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" width="43" height="12" class="mauve">
+        </rect>
+      </g>
+    </g>
+    <g id="shape-0bf4a73d-b50a-80b6-8007-60a09b54c077">
+      <g transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="text-container" x="-30" y="736" width="44" height="72" rx="0" ry="0">
+        <defs>
+          <pattern patternUnits="objectBoundingBox" width="43.19999694824219" height="94.66665649414062" id="fill-0-render-179-0">
+            <g>
+              <rect width="43.19999694824219" height="94.66665649414062" style="fill:#000000;fill-opacity:1">
+              </rect>
+            </g>
+          </pattern>
+        </defs>
+        <g class="fills" id="fills-0bf4a73d-b50a-80b6-8007-60a09b54c077">
+          <text x="-30" y="819.3333282470703" dominant-baseline="ideographic" textLength="43.19999694824219" lengthAdjust="spacingAndGlyphs" class="mauve" style="text-transform:none;font-family:&quot;JetBrains Mono&quot;;letter-spacing:normal;font-style:normal;font-weight:800;white-space:pre;font-size:72px;text-decoration:none;direction:ltr">{</text>
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>
