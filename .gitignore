@@ -23,3 +23,4 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 src/content/blog/_template.md
+src/content/blog/_markdown-test copy.md

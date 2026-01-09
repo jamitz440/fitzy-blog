@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "tailwindcss";
 
 :root {
     --ctp-base: #24273a;
@@ -64,7 +64,7 @@ mark {
 }
 ul,
 ol {
-    margin: 1em 0;
+    margin: 0.5em 0 1.5em 0;
     padding-left: 2em;
     text-decoration: var(--ctp-maroon);
 }
@@ -162,6 +162,9 @@ p {
 .prose p {
     margin-bottom: 2em;
 }
+.prose li p {
+    margin-bottom: 0.5em;
+}
 textarea {
     width: 100%;
     color: var(--ctp-text);
@@ -219,7 +222,7 @@ blockquote {
     border-left: 4px solid var(--ctp-lavender);
     padding: 0 0 0 20px;
     margin: 0;
-    font-size: 1.333em;
+    font-size: 1em;
 }
 hr {
     border: none;
@@ -261,4 +264,51 @@ hr {
     clip-path: inset(50%);
     /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
     white-space: nowrap;
+}
+
+/* Footnotes section */
+.footnotes {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 2px solid var(--ctp-surface-1);
+    font-size: 0.875em;
+    opacity: 0.9;
+}
+
+.footnotes ol {
+    padding-left: 2em;
+}
+
+.footnotes li {
+    margin: 0.75em 0;
+    color: var(--ctp-subtext-0);
+}
+
+.footnotes p {
+    margin: 0;
+    display: inline;
+}
+
+/* Footnote reference links in text */
+a[data-footnote-ref] {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--ctp-sapphire);
+    padding: 0 0.2em;
+}
+
+a[data-footnote-ref]:hover {
+    color: var(--ctp-sky);
+}
+
+/* Back to content link */
+a[data-footnote-backref] {
+    text-decoration: none;
+    margin-left: 0.25em;
+    color: var(--ctp-lavender);
+    font-weight: 700;
+}
+
+a[data-footnote-backref]:hover {
+    color: var(--ctp-mauve);
 }
