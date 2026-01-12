@@ -4,7 +4,8 @@ import { getCollection } from "astro:content";
 import BaseHead from "../../components/BaseHead.astro";
 import FormattedDate from "../../components/FormattedDate.astro";
 import Header from "../../components/Header.astro";
-import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
+import { SITE_DESCRIPTION, SITE_TITLE, TAGS } from "../../consts";
+import { Font } from "astro:assets";
 
 const posts = (await getCollection("blog")).sort(
     (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -39,7 +40,7 @@ const postsWithReadingTime = posts.map((post) => ({
             ul li {
                 margin-bottom: 1.5rem;
                 padding-bottom: 1.5rem;
-                border-bottom: 1px solid var(--ctp-surface-1);
+                border-bottom: 1px solid var(--surface);
             }
             ul li:last-child {
                 border-bottom: none;
@@ -54,16 +55,16 @@ const postsWithReadingTime = posts.map((post) => ({
             }
             .title {
                 margin: 0 0 0.25rem 0;
-                color: var(--ctp-mauve);
+                color: var(--accent);
                 line-height: 1.3;
                 font-size: 1.3rem;
             }
             ul li a:hover .title {
-                color: var(--ctp-lavender);
+                color: var(--accent-light);
             }
             .date {
                 margin: 0;
-                color: var(--ctp-subtext-0);
+                color: var(--light-muted);
                 font-size: 0.85rem;
             }
             .meta {
@@ -72,7 +73,7 @@ const postsWithReadingTime = posts.map((post) => ({
                 align-items: center;
             }
             .reading-time {
-                color: var(--ctp-overlay-0);
+                color: var(--light-accent);
             }
             .reading-time::before {
                 content: "•";
@@ -80,7 +81,7 @@ const postsWithReadingTime = posts.map((post) => ({
             }
             .description {
                 margin: 0.5rem 0 0 0;
-                color: var(--ctp-text);
+                color: var(--light);
                 line-height: 1.5;
                 font-size: 0.95rem;
             }
@@ -115,6 +116,10 @@ const postsWithReadingTime = posts.map((post) => ({
                                             {post.readingTime}
                                         </span>
                                     </div>
+                                    {post.data.tags && post.data.tags.map((tag) => (
+                                        <span class="tag" style=`background: var(${TAGS[tag]}`>{tag}</span>
+                                    ))}
+
                                     {post.data.description && (
                                         <p class="description">
                                             {post.data.description}

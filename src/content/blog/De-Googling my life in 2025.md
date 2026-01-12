@@ -2,6 +2,7 @@
 title: 'De-Googling my life in 2025'
 description: 'A dive into the decisions I made to remove google from my life after becoming a dad.'
 pubDate: 'Jan 10 2025'
+tags: ["privacy", "tech"]
 ---
 
 ### Why 2025 forced a privacy rethink

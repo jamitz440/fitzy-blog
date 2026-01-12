@@ -2,34 +2,32 @@
 @import "tailwindcss";
 
 :root {
-    --ctp-base: #24273a;
-    --ctp-mantle: #1e2030;
-    --ctp-crust: #181926;
-    --ctp-surface-0: #363a4f;
-    --ctp-surface-1: #494d64;
-    --ctp-surface-2: #5b6078;
-    --ctp-overlay-0: #6e738d;
-    --ctp-overlay-1: #8087a2;
-    --ctp-overlay-2: #939ab7;
-    --ctp-subtext-0: #a5adcb;
-    --ctp-subtext-1: #b8c0e0;
-    --ctp-text: #cad3f5;
-    --ctp-lavender: #b7bdf8;
-    --ctp-blue: #8aadf4;
-    --ctp-sapphire: #7dc4e4;
-    --ctp-sky: #91d7e3;
-    --ctp-teal: #8bd5ca;
-    --ctp-green: #a6da95;
-    --ctp-yellow: #eed49f;
-    --ctp-peach: #f5a97f;
-    --ctp-maroon: #ee99a0;
-    --ctp-red: #ed8796;
-    --ctp-mauve: #c6a0f6;
-    --ctp-pink: #f5bde6;
-    --ctp-flamingo: #f0c6c6;
-    --ctp-rosewater: #f4dbd6;
-    --accent: #2337ff;
-    --accent-dark: #000d8a;
+    /* Base colors */
+    --dark: #343232;
+    --dark-1: #2a2828;
+    --dark-2: #1f1e1e;
+
+    --surface: #4a4645;
+    --surface-light: #5a5553;
+    --light: #f4f4ef;
+    --light-muted: #d4d0c8;
+
+    /* Accent colors */
+    --accent: #e2a16f;
+    --accent-light: #f0b88a;
+    --accent-dark: #8a614f;
+
+    --light-accent: #a39a93;
+    --light-accent-hover: #8d847d;
+
+    /* Supporting colors */
+    --yellow: #e8c17f;
+    --green: #a8c98f;
+    --teal: #7ec4d4;
+    --blue: #7eb4d4;
+    --purple: #b8a8d8;
+    --red: #d88888;
+
     --black: 15, 18, 25;
     --gray: 96, 115, 159;
     --gray-light: 229, 233, 240;
@@ -44,29 +42,32 @@ body {
     margin: 0;
     padding: 0;
     text-align: left;
-    background: var(--ctp-base);
+    background: var(--dark);
     background-size: 100% 600px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    color: var(--ctp-text);
+    color: var(--light);
     font-size: 16px;
     line-height: 1.7;
 }
+
 em {
-    color: var(--ctp-green);
+    color: var(--green);
 }
+
 th {
-    color: var(--ctp-text);
+    color: var(--light);
 }
+
 mark {
-    background-color: var(--ctp-yellow);
-    color: var(--ctp-surface-0);
+    background-color: var(--yellow);
+    color: var(--dark);
 }
+
 ul,
 ol {
     margin: 0.5em 0 1.5em 0;
     padding-left: 2em;
-    text-decoration: var(--ctp-maroon);
 }
 
 ul {
@@ -78,12 +79,12 @@ ol {
 }
 
 li {
-    color: var(--ctp-text);
+    color: var(--light);
     margin: 0.5em 0;
 }
 
 li::marker {
-    color: var(--ctp-maroon);
+    color: var(--accent);
 }
 
 li > ul,
@@ -99,12 +100,14 @@ ul ul {
 ul ul ul {
     list-style-type: square;
 }
+
 main {
     width: 720px;
     max-width: calc(100% - 2em);
     margin: auto;
     padding: 1em 1em;
 }
+
 h1,
 h2,
 h3,
@@ -112,7 +115,7 @@ h4,
 h5,
 h6 {
     margin: 2rem 0 1rem 0;
-    color: var(--ctp-mauve);
+    color: var(--accent);
     line-height: 1.2;
 }
 
@@ -124,56 +127,64 @@ h5:first-child,
 h6:first-child {
     margin-top: 0;
 }
+
 h1 {
     font-size: 3.052em;
-    color: var(--ctp-mauve);
 }
+
 h2 {
     font-size: 2.441em;
-    color: var(--ctp-mauve);
 }
+
 h3 {
     font-size: 1.953em;
-    color: var(--ctp-mauve);
 }
+
 h4 {
     font-size: 1.563em;
-    color: var(--ctp-mauve);
 }
+
 h5 {
-    color: var(--ctp-mauve);
     font-size: 1.25em;
 }
+
 strong,
 b {
-    color: var(--ctp-mauve);
+    color: var(--accent);
     font-weight: 700;
 }
+
 a {
-    color: var(--ctp-blue);
+    color: var(--blue);
 }
+
 a:hover {
-    color: var(--ctp-blue);
+    color: var(--blue);
 }
+
 p {
     margin-bottom: 1em;
-    color: var(--ctp-text);
+    color: var(--light);
 }
+
 .prose p {
     margin-bottom: 2em;
 }
+
 .prose li p {
     margin-bottom: 0.5em;
 }
+
 textarea {
     width: 100%;
-    color: var(--ctp-text);
-
+    color: var(--light);
     font-size: 16px;
 }
+
 input {
     font-size: 16px;
 }
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -181,20 +192,20 @@ table {
 }
 
 thead {
-    background-color: var(--ctp-surface-0);
+    background-color: var(--surface);
 }
 
 th {
     padding: 0.75em;
     text-align: left;
-    border: 1px solid var(--ctp-surface-1);
+    border: 1px solid var(--surface-light);
     font-weight: 700;
 }
 
 td {
     padding: 0.75em;
-    border: 1px solid var(--ctp-surface-1);
-    color: var(--ctp-text);
+    border: 1px solid var(--surface-light);
+    color: var(--light);
 }
 
 img {
@@ -202,36 +213,41 @@ img {
     height: auto;
     border-radius: 8px;
 }
+
 code {
     padding: 2px 5px;
-    background-color: var(--ctp-surface-1);
-    color: var(--ctp-text);
+    background-color: var(--surface);
+    color: var(--light);
     border-radius: 2px;
 }
+
 pre {
     padding: 1.5em;
     border-radius: 8px;
-    background-color: var(--ctp-mantle) !important;
+    background-color: var(--dark-1) !important;
     overflow-x: auto;
     margin: 1.5em 0;
 }
+
 pre > code {
     all: unset;
 }
+
 blockquote {
-    border-left: 4px solid var(--ctp-lavender);
+    border-left: 4px solid var(--purple);
     padding: 0 0 0 20px;
     margin: 0;
     font-size: 1em;
 }
+
 hr {
     border: none;
     height: 3px;
     background: repeating-linear-gradient(
         90deg,
-        var(--ctp-lavender) 0px,
-        var(--ctp-lavender) 8px,
-        var(--ctp-lavender) 16px
+        var(--light-accent) 0px,
+        var(--light-accent) 8px,
+        var(--light-accent) 16px
     );
     -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 6'%3E%3Cpath d='M0 3 Q 3 0, 6 3 T 12 3 T 18 3 T 24 3' stroke='black' stroke-width='2' fill='none'/%3E%3C/svg%3E")
         repeat-x;
@@ -239,6 +255,7 @@ hr {
         repeat-x;
     margin: 2em 0;
 }
+
 @media (max-width: 720px) {
     body {
         font-size: 14px;
@@ -256,13 +273,9 @@ hr {
     height: 1px;
     width: 1px;
     overflow: hidden;
-    /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
     clip: rect(1px 1px 1px 1px);
-    /* maybe deprecated but we need to support legacy browsers */
     clip: rect(1px, 1px, 1px, 1px);
-    /* modern browsers, claip-path works inwards from each corner */
     clip-path: inset(50%);
-    /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
     white-space: nowrap;
 }
 
@@ -270,7 +283,7 @@ hr {
 .footnotes {
     margin-top: 3em;
     padding-top: 1.5em;
-    border-top: 2px solid var(--ctp-surface-1);
+    border-top: 2px solid var(--surface-light);
     font-size: 0.875em;
     opacity: 0.9;
 }
@@ -281,7 +294,7 @@ hr {
 
 .footnotes li {
     margin: 0.75em 0;
-    color: var(--ctp-subtext-0);
+    color: var(--light-muted);
 }
 
 .footnotes p {
@@ -293,22 +306,30 @@ hr {
 a[data-footnote-ref] {
     text-decoration: none;
     font-weight: 700;
-    color: var(--ctp-sapphire);
+    color: var(--teal);
     padding: 0 0.2em;
 }
 
 a[data-footnote-ref]:hover {
-    color: var(--ctp-sky);
+    color: var(--blue);
 }
 
 /* Back to content link */
 a[data-footnote-backref] {
     text-decoration: none;
     margin-left: 0.25em;
-    color: var(--ctp-lavender);
+    color: var(--purple);
     font-weight: 700;
 }
 
 a[data-footnote-backref]:hover {
-    color: var(--ctp-mauve);
+    color: var(--accent);
+}
+
+.tag {
+    background: var(--accent);
+    border-radius: 19px;
+    margin: 4px;
+    padding: 1px 8px 1px 8px;
+    color: var(--dark-2);
 }

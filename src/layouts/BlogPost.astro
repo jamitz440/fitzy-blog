@@ -7,7 +7,8 @@ import Header from "../components/Header.astro";
 import "../styles/global.css";
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, tags } =
+    Astro.props;
 ---
 
 <html lang="en">
@@ -46,7 +47,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
             }
             .date {
                 margin-bottom: 0.5em;
-                color: rgb(var(--gray));
+                color: var(--light-accent);
             }
             .last-updated-on {
                 font-style: italic;
