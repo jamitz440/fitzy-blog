@@ -1,13 +1,16 @@
 ---
 import { SITE_TITLE } from "../consts";
 import HeaderLink from "./HeaderLink.astro";
+import Logo from "../../public/logo.svg
 ---
 
 <header>
     <nav>
         <h2>
             <a href="/" class="logo-link flex items-center justify-center">
-                <img src="/logo.svg" alt={SITE_TITLE} class="logo" />
+                <div class="logo">
+                    <Logo />
+                </div>
                 <!-- <span>{SITE_TITLE}</span> -->
             </a>
         </h2>
