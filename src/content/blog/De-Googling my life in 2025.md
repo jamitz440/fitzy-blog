@@ -7,7 +7,7 @@ tags: ["privacy", "tech"]
 
 ### Why 2025 forced a privacy rethink
 
-I have always been privacy-conscious but in 2025, a big change happened in my life that affected how I saw the world. I had a daughter. I wanted to have a secure way to share and store photos of her milestones with my family, which led me down the path of self hosting away from the private giants and the AI boom.
+I have always been privacy-conscious but in 2025, a big change happened in my life that affected how I saw the world. I had a daughter. I wanted to have a secure way to share and store photos of her milestones with my family, which led me down the path of self-hosting away from the private giants and the AI boom.
 
 This year I saw the rollout of invasive technologies. Mass surveillance systems such as the network of flock cameras in the United States were among them[^1]. At the same time the private giants, Google and Meta, put profits before privacy. It was a model that I didn't want to be a part of. I wanted to take control of as much of my information and data that I could, which led me to open-source, transparent applications that I can self-host.
 
@@ -19,7 +19,7 @@ Severing my ties to the tech giants was a major shift. I have had a Google accou
 
 Ironically, the privacy-focused [GrapheneOS](https://grapheneos.org/) only works on Pixel phones. It's an OS which goes out of its way to protect your data. It doesn't bundle any Google services, instead it provides its own core apps (camera, messages, etc.) and gives you the ability to sandbox any Google processes you wish to reinstall.
 
-If you're undecided or don't have a Pixel, [this](https://eylenburg.github.io/android_comparison.htm) comparison chart by eylenburg may help you decide what's right for you.
+If you're undecided or don't have a Pixel, this [comparison chart by eylenburg](https://eylenburg.github.io/android_comparison.htm) may help you decide what's right for you.
 
 ### Emails & cloud storage
 
