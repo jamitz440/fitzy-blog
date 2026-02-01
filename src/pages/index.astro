@@ -57,14 +57,13 @@ const posts = (await getCollection("blog"))
                 margin-bottom: 1.25rem;
                 padding: 1rem;
                 background: var(--dark-1);
-                border-radius: 8px;
-                border-left: 3px solid var(--accent);
+                border-radius: 0px 8px 8px 0px;
                 transition: all 0.2s ease;
             }
 
             .post-item:hover {
                 transform: translateX(0.5rem);
-                border-left-color: var(--accent-light);
+                border-left: 3px solid var(--accent);
             }
 
             .post-item a {

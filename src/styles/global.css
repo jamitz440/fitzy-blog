@@ -234,7 +234,7 @@ pre > code {
 }
 
 blockquote {
-    border-left: 4px solid var(--purple);
+    border-left: 4px solid var(--accent);
     padding: 0 0 0 20px;
     margin: 0;
     font-size: 1em;
@@ -279,7 +279,6 @@ hr {
     white-space: nowrap;
 }
 
-/* Footnotes section */
 .footnotes {
     margin-top: 3em;
     padding-top: 1.5em;
@@ -302,7 +301,6 @@ hr {
     display: inline;
 }
 
-/* Footnote reference links in text */
 a[data-footnote-ref] {
     text-decoration: none;
     font-weight: 700;
@@ -314,7 +312,6 @@ a[data-footnote-ref]:hover {
     color: var(--blue);
 }
 
-/* Back to content link */
 a[data-footnote-backref] {
     text-decoration: none;
     margin-left: 0.25em;
